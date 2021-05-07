@@ -1,27 +1,76 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-footer {
+  height: 65%;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-grid {
+  padding: 5rem 0 0 0;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+.calculatorContainer {
+  padding-bottom: 2.5rem;
+  background-color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
-  color: #8c8c8c;
+.sumContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-end;
+  padding-right: 2rem;
+  // margin-top: 2rem;
+  height: 100%;
+  background-color: rgba(99, 158, 226, 0.1);
+  padding: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 
+  -webkit-border-bottom-right-radius: 25px;
+  -webkit-border-bottom-left-radius: 25px;
+  -moz-border-radius-bottomright: 25px;
+  -moz-border-radius-bottomleft: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.sumContainer h1,
+.sumContainer h4,
+.sumContainer p {
   margin: 0;
+  padding: 0;
 }
 
-#container a {
-  text-decoration: none;
+.sumContainer h1 {
+  font-size: 4rem;
+}
+
+.sumContainer p {
+  font-size: 2rem;
+  color: rgb(163, 163, 163);
+}
+
+.sumContainer h4 {
+  color: rgb(197, 197, 197);
+}
+
+////////////////////////////////////////////////////////////////
+
+.button,
+.specialButton {
+  margin: 0.2rem;
+  padding: 1.5rem;
+  margin: 0.2rem;
+  border-radius: 15px;
+  font-size: 1.5rem;
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 58, 58);
+}
+
+.specialButton {
+  color: rgb(255, 255, 255);
+  background-color: var(--ion-color-primary);
 }
